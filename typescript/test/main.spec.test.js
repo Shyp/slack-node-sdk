@@ -1,4 +1,3 @@
-/// <reference path="../../typings/mocha/mocha.d.ts" />
 var Slack, apiToken, domain, nock, should, url, webhookToken, webhookUri;
 should = require("should");
 nock = require("nock");
