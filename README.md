@@ -3,7 +3,7 @@ slack-node-sdk
 
 [![Build Status](https://travis-ci.org/clonn/slack-node-sdk.svg?branch=master)](https://travis-ci.org/clonn/slack-node-sdk)
 
-[Slack](https://slack.com/) Node SDK, full support for Webhook and the Slack API, continuously updated.
+[Slack](https://slack.com/) Node SDK. Supports the Webhook and the Slack API
 
 ## Install
 
@@ -98,6 +98,11 @@ slack.api('chat.postMessage', {
 ```
 
 ## Changelog
+
+ * 0.2.0
+    * Generated JS uses the CoffeeScript 0.10.0 compiler
+    * Support link_names webhook argument
+    * Support response_type argument
 
  * 0.1.7
   * slack-node no longer crashes if Slack returns HTML instead of JSON.
